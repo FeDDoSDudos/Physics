@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test2"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 класс"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/MechBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Механика"
+            />
+        <Button
+            android:id="@+id/TermBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Термодинамика"
+            />
+        <Button
+            android:id="@+id/ElicBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="Электродинамика"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11 класс"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/Elic2BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="Электродинамика"
+                />
+            <Button
+                android:id="@+id/WavesBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="Колебания и волны"
+                />
+            <Button
+                android:id="@+id/Optic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="Оптика"
+                />
+            <Button
+                android:id="@+id/Quant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="Квантовая физика"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
